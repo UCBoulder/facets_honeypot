@@ -1,0 +1,7 @@
+name: 'Facets Honeypot'
+type: module
+description: 'Provides a honeypot widget for Facets to help prevent spam submissions.'
+dependencies:
+  - drupal:facets
+
+core_version_requirement: ^10 || ^11

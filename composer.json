@@ -1,0 +1,16 @@
+{
+  "name": "oit/facets_honeypot",
+  "type": "drupal-custom-module",
+  "description": "Drupal module to add honeypot spam protection to facets forms.",
+  "require": {
+    "drupal/core": "^10 || ^11"
+  },
+  "require-dev": {
+    "drupal/core-dev": "^10 || ^11"
+  },
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://github.com/UCBoulder/facets_honeypot",
+  "minimum-stability": "dev"
+}
+
