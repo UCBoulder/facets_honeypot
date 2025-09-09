@@ -1,0 +1,6 @@
+services:
+  facets_honeypot.subscriber:
+    class: Drupal\facets_honeypot\EventSubscriber\FacetsHoneypotSubscriber
+    tags:
+      - { name: event_subscriber }
+

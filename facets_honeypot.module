@@ -5,3 +5,17 @@
  * Module containing custom facets honeypot code.
  */
 
+use Drupal\views\ViewExecutable;
+
+/**
+ * Implements hook_views_pre_render().
+ */
+function facets_honeypot_views_pre_render(ViewExecutable $view) {
+  // Attach the honeypot library only to views that use search_api_index tables.
+  foreach ($view->getBaseTables() as $key => $table) {
+    if (str_starts_with($key, 'search_api_index')) {
+      $view->element['#attached']['library'][] = 'facets_honeypot/facets_honeypot';
+      break;
+    }
+  }
+}

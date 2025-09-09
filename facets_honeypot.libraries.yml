@@ -1,0 +1,12 @@
+facets_honeypot:
+  version: 1.x
+  css:
+    theme:
+      css/facets_honeypot.css: {}
+  js:
+    js/facets_honeypot.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+    - core/drupalSettings
