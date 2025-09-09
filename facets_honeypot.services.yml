@@ -1,6 +1,7 @@
 services:
   facets_honeypot.views_ajax_subscriber:
     class: Drupal\facets_honeypot\EventSubscriber\ViewsAjaxResponseSubscriber
+    arguments: ['@request_stack', '@logger.factory']
     tags:
       - { name: event_subscriber }
 
