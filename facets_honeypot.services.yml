@@ -1,6 +1,6 @@
 services:
-  facets_honeypot.subscriber:
-    class: Drupal\facets_honeypot\EventSubscriber\FacetsHoneypotSubscriber
+  facets_honeypot.views_ajax_subscriber:
+    class: Drupal\facets_honeypot\EventSubscriber\ViewsAjaxResponseSubscriber
     tags:
       - { name: event_subscriber }
 

@@ -3,8 +3,8 @@
  */
 
 /* Make checkbox only readable to bots
+*/
 .honey {
   position: absolute;
   left: -9999px;
 }
-*/

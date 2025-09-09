@@ -7,6 +7,3 @@ facets_honeypot:
     js/facets_honeypot.js: {}
   dependencies:
     - core/jquery
-    - core/jquery.once
-    - core/drupal
-    - core/drupalSettings
