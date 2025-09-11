@@ -19,3 +19,4 @@ function facets_honeypot_views_pre_render(ViewExecutable $view) {
     }
   }
 }
+
