@@ -7,7 +7,7 @@
   $(document).ready(function () {
 
     if ($('.form-checkboxes').length > 0) {
-      $('.form-checkboxes').prepend('<div aria-hidden="true" class="js-form-item form-item honey"><input type="checkbox" value="1" class="form-checkbox form-item__textfield" id="edit-field-not-an-option" data-drupal-selector="edit-field-not-an-option" name="field_not-an-option-65461"><label for="edit-field-not-an-option" class="option form-item__label">Not an option (36)</label></div>');
+      $('.form-checkboxes').before('<div aria-hidden="true" class="js-form-item form-item honey"><input type="checkbox" value="1" class="form-checkbox form-item__textfield" id="edit-field-not-an-option" data-drupal-selector="edit-field-not-an-option" name="field_not-an-option-65461"><label for="edit-field-not-an-option" class="option form-item__label">Not an option (36)</label></div>');
     }
 
   });
