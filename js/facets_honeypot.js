@@ -23,7 +23,7 @@
 
             if ($(this).find('.honeypot-checkbox').length === 0) {
               honeypot_id++;
-              $(this).prepend('<li aria-hidden="true" class="facet-item list-none honey"><input type="checkbox" class="facets-checkbox honeypot-checkbox" aria-hidden="true" id="edit-field-not-an-option-' + honeypot_id + '"><label aria-hidden="true" for="edit-field-not-an-option-' + honeypot_id + '"><span class="facet-item__value ps-2">Not an option </span><span class="facet-item__count">(21)</span></label></li><a href="?field_not-an-option-65461=1" rel="nofollow" data-drupal-facet-item-id="not-an-option" data-drupal-facet-item-value="not_an_option" data-drupal-facet-item-count="21" aria-hidden="true" style="display: none;"><span class="facet-item__value ps-2">Not an option</span><span class="facet-item__count">(21)</span></a>');
+              $(this).prepend('<li aria-hidden="true" class="facet-item list-none honey"><input type="checkbox" class="facets-checkbox honeypot-checkbox" aria-hidden="true" id="edit-field-not-an-option-' + honeypot_id + '"><label aria-hidden="true" for="edit-field-not-an-option-' + honeypot_id + '"><span class="facet-item__value ps-2">Not an option </span><span class="facet-item__count">(21)</span></label></li><a href="?field_not-an-option-65461=1" rel="nofollow" data-drupal-facet-item-id="not-an-option" data-drupal-facet-item-value="not_an_option" data-drupal-facet-item-count="21" aria-hidden="true" style="display: none; visibility: hidden;"><span class="facet-item__value ps-2">Not an option</span><span class="facet-item__count">(21)</span></a>');
             }
 
           });

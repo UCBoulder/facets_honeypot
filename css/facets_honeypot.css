@@ -7,4 +7,5 @@
 .honey {
   position: absolute;
   left: -9999px;
+  visibility: hidden;
 }
