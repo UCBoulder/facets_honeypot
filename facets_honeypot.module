@@ -10,7 +10,7 @@ use Drupal\views\ViewExecutable;
 /**
  * Implements hook_views_pre_render().
  */
-function facets_honeypot_views_pre_render(ViewExecutable $view) {
+function facets_honeypot_views_pre_render(ViewExecutable $view): void {
   // Attach the honeypot library only to views that use search_api_index tables.
   foreach ($view->getBaseTables() as $key => $table) {
     if (str_starts_with($key, 'search_api_index')) {
@@ -19,4 +19,3 @@ function facets_honeypot_views_pre_render(ViewExecutable $view) {
     }
   }
 }
-
