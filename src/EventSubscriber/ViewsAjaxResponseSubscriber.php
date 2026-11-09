@@ -55,7 +55,7 @@ class ViewsAjaxResponseSubscriber implements EventSubscriberInterface {
    * @param \Symfony\Component\HttpKernel\Event\ResponseEvent $event
    *   The response event.
    */
-  public function onResponse(ResponseEvent $event): void {
+  public function onResponse(ResponseEvent $event) {
     $request = $this->requestStack->getCurrentRequest();
     $bot = $request->query->get('field_not-an-option-65461');
 

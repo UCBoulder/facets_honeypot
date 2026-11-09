@@ -4,3 +4,4 @@ services:
     arguments: ['@request_stack', '@logger.factory']
     tags:
       - { name: event_subscriber }
+
